@@ -7,7 +7,14 @@
               android:id="@+id/blue_fragment">
 
         <TextView
-             android:text="This is the blue fragment"
+             android:text="I am the blue fragment"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send a random number to the green fragment"
+            android:id="@+id/send_rnd_to_green_button"/>
+
 </Linearlayout>
